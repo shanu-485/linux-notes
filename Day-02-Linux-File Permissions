@@ -1,12 +1,23 @@
-# Day 02 - Linux-File Permissions
-pwd
-ls -l
-chmod 777 notes.txt
-ls -l
-chmod 644 notes.txt
+# Day 2 - Linux File Permissions
+
+## Commands Practiced
+
+- ls -l
+- chmod 777
+- chmod 644
 ls -l
 mkdir permissions
 cd permissions
 touch file1.txt
 touch file2.txt
 ls -l
+
+## Understanding
+
+777 = rwx rwx rwx
+
+644 = rw- r-- r--
+
+## Key Learning
+
+Linux permissions control who can read, write, and execute files.
